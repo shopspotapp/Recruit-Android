@@ -4,8 +4,9 @@ Luckily, we found you, a super star developer who will come to create an applica
 Are you wondering what it is ?  Well, it’s the simple app but powerful.   
 
 #### You just need to :
-1. Display grid of photos based on data from <a href="#api">API</a>
+1. Display grid of photos based on data from <a href="#api">API</a>.
 2. When our developer clicks on each photo, it needs to show full screen image along with name and created date.
+3. Please send us a `Pull Requests` when you're finished.
 
 > ** Using 3rd party libraries are okay.
 
@@ -13,7 +14,7 @@ Are you wondering what it is ?  Well, it’s the simple app but powerful.
 1. Support both a portrait and a landscape screen. (The app should not call api again when rotating screen.)
 2. With infinite scroll feature, our developers will be super happy.
 
-### [API](#api)
+### API
 ```
 http://gank.avosapps.com/api/data/{keyword}/{limit}/{page}
 ```
