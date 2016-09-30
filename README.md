@@ -13,6 +13,7 @@ Are you wondering what it is ?  Well, it’s the simple app but powerful.
 #### Bonus
 1. Support both a portrait and a landscape screen. (The app should not call api again when rotating screen.)
 2. With infinite scroll feature, our developers will be super happy.
+3. <a href="https://blog.jetbrains.com/kotlin/2016/09/kotlin-1-0-4-is-here/" target="_blank">Kotlin 1.0.4 is here</a>
 
 ### API
 ```
@@ -27,13 +28,8 @@ http://gank.avosapps.com/api/data/{keyword}/{limit}/{page}
 http://gank.avosapps.com/api/data/福利/50/1
 ```
 ### Screen Shot
-**Portrait**
+<img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-grid-portrait.png" width="200" />
+<img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-grid-portrait-swipe.png" width="200" />
 
-<img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-grid-portrait.jpg" width="200" />
 <img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-detail-portrait.jpg" width="200" />
-
-
-**Landscape**
-
-<img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-grid-landscape.jpg" width="400" />
 <img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-detail-landscape.jpg" width="400" />
