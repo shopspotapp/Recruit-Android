@@ -28,7 +28,7 @@ http://gank.avosapps.com/api/data/{keyword}/{limit}/{page}
 http://gank.avosapps.com/api/data/福利/50/1
 ```
 ### Screen Shot
-<img src="http://i.giphy.com/3o6ZteMqH3oiB2dPri.gif" width="250" />
+<img src="http://i.giphy.com/3o6ZteMqH3oiB2dPri.gif" width="300" />
 
 <img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-detail-portrait.jpg" width="200" />
 <img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-detail-landscape.jpg" width="400" />
