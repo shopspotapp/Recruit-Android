@@ -31,4 +31,4 @@ http://gank.avosapps.com/api/data/福利/50/1
 <img src="http://i.giphy.com/26uf5OUS87Yfv1dWU.gif" width="300" />
 <img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-detail-portrait.jpg" width="300" />
 
-<img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-detail-landscape.jpg" width="400" />
+<img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-detail-landscape.jpg" width="600" />
