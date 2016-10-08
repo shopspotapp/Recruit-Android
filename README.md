@@ -17,7 +17,7 @@ Are you wondering what it is ?  Well, it’s the simple app but powerful.
 
 ### API
 ```
-http://gank.avosapps.com/api/data/{keyword}/{limit}/{page}
+http://gank.io/api/data/{keyword}/{limit}/{page}
 ```
 > keyword  = Using this keyword '福利'<br />
 > limit    = Limit number of items result.<br />
@@ -25,7 +25,7 @@ http://gank.avosapps.com/api/data/{keyword}/{limit}/{page}
 
 **For example**
 ```
-http://gank.avosapps.com/api/data/福利/50/1
+http://gank.io/api/data/福利/50/1
 ```
 ### Screen Shot
 <img src="http://i.giphy.com/26uf5OUS87Yfv1dWU.gif" width="300" />
