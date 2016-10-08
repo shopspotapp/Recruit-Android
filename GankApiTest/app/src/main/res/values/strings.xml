@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">GankApiTest</string>
+
+    <!-- Detail Screen -->
+    <string name="close_detail_screen">Close detail screen</string>
+    <!-- Detail Screen -->
+
+</resources>
