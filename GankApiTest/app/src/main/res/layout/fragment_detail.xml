@@ -1,0 +1,51 @@
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detailRootContainer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/detailImageDraweeView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:actualImageScaleType="fitCenter" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@color/black_alpha_50">
+
+        <TextView
+            android:id="@+id/detailDescTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start|center_vertical"
+            android:padding="@dimen/size_large"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/detailDateTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:padding="@dimen/size_large"
+            android:textColor="@android:color/white" />
+
+    </FrameLayout>
+
+    <ImageButton
+        android:id="@+id/detailCloseImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:background="@android:color/transparent"
+        android:clickable="true"
+        android:contentDescription="@string/close_detail_screen"
+        android:focusable="true"
+        android:foreground="@drawable/accent_light"
+        android:padding="@dimen/size_large"
+        app:srcCompat="@drawable/ic_close_black_24dp" />
+
+</android.support.design.widget.CoordinatorLayout>
