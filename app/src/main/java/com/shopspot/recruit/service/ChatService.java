@@ -10,7 +10,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 import retrofit2.http.GET;
 
 public class ChatService {
-    private static final String BASE_URL = "http://4you.in.th/api/";
+    private static final String BASE_URL = "https://4you.in.th/api/chat/history.json";
 
     public interface ChatAPI {
         @GET("chat/history.json")

@@ -5,6 +5,7 @@ public class Chat {
     private String  message;
     private String  ownerId;
     private String  ownerName;
+    private String  ownerAvatar;
     private boolean isOwner;
     private boolean isRead;
     private long    createdDate;
