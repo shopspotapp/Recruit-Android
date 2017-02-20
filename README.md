@@ -2,11 +2,10 @@
 Our developers are working very hard to deliver the excellent product. 
 So, we would like to find something to help them relax by create private chat application with their kik.
 
-
 Luckily, we found **YOU**, a super star developer who will come to create an application to save our team.
 Are you wondering what it is ?  Well, it’s the simple app but powerful.
 
-#### You just need to :
+### You just need to :
 1. Clone this repository and implement code **based on our code**.
 2. Display chat history based on data from <a href="#api">API</a>.
 3. Please send us a `Pull Requests` when you're finished.
