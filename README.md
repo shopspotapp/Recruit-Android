@@ -21,7 +21,7 @@ Are you wondering what it is ?  Well, it’s the simple app but powerful.
 http://4you.in.th/api/chat/history.json
 ```
 ### Inspried Design
-<img src="https://assets.materialup.com/uploads/2396df54-c09d-41b0-84b7-1ff60430f765/alvin_armstrong.jpg" width="400" />
+<img src="https://github.com/shopspotapp/Recruit-Android/blob/master/screenshot/alvin_armstrong.jpg?raw=true" width="400" />
 
 Credit : <a href="https://material.uplabs.com/posts/whatsapp-material-redesign" target="_blank">material.uplabs.com</a>
 
