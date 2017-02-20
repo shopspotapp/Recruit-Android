@@ -1,34 +1,28 @@
 ### To the chosen one,
-Our developers are working very hard to deliver the excellent product. So, we would like to find something to help them relax.
-Luckily, we found you, a super star developer who will come to create an application to save our team.
+Our developers are working very hard to deliver the excellent product. 
+So, we would like to find something to help them relax by create private chat application with thier gig.
+
+
+Luckily, we found **YOU**, a super star developer who will come to create an application to save our team.
 Are you wondering what it is ?  Well, it’s the simple app but powerful.
 
 #### You just need to :
-1. Display grid of photos based on data from <a href="#api">API</a>.
-2. When our developer clicks on each photo, it needs to show full screen image along with name and created date.
+1. Clone this repository and implement code based on our code.
+2. Display chat history based on data from <a href="#api">API</a>.
 3. Please send us a `Pull Requests` when you're finished.
 
 > ** Using 3rd party libraries are okay.
 
 #### Bonus
-1. Support both a portrait and a landscape screen. (The app should not call api again when rotating screen.)
-2. With infinite scroll feature, our developers will be super happy.
-3. <a href="https://blog.jetbrains.com/kotlin/2016/09/kotlin-1-0-4-is-here/" target="_blank">Kotlin 1.0.4 is here</a>
+<a href="https://blog.jetbrains.com/kotlin/2016/12/kotlin-1-0-6-is-here/" target="_blank">Kotlin 1.0.6 is here!</a>
 
 ### API
 ```
-http://gank.io/api/data/{keyword}/{limit}/{page}
+http://4you.in.th/api/chat/history.json
 ```
-> keyword  = Using this keyword '福利'<br />
-> limit    = Limit number of items result.<br />
-> page     = Pagination of results.<br />
+### Inspried Design
+<img src="https://d13yacurqjgara.cloudfront.net/users/47927/screenshots/1087442/attachments/135573/UI.png" width="300" />
 
-**For example**
-```
-http://gank.io/api/data/福利/50/1
-```
-### Screen Shot
-<img src="http://i.giphy.com/26uf5OUS87Yfv1dWU.gif" width="300" />
-<img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-detail-portrait.jpg" width="300" />
+Credit : <a href="https://dribbble.com/shots/1087442-ChatAppUI/attachments/135573" target="_blank">dribbble</a>
 
-<img src="https://raw.githubusercontent.com/shopspotapp/Recruit-Android/master/example/ss-detail-landscape.jpg" width="600" />
+> ** Note : We didn't expected your application like above design 100%.
