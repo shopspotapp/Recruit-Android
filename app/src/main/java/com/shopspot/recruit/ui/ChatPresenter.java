@@ -30,8 +30,7 @@ public class ChatPresenter implements ChatContract.Presenter {
 
     private void getChatHistory() {
         mChatView.showLoading();
-        mChatService
-            .getAPI()
+        mChatService.getAPI()
             .getHistory()
             .enqueue(new Callback<List<Chat>>() {
                 @Override
@@ -40,8 +39,8 @@ public class ChatPresenter implements ChatContract.Presenter {
                     mChatView.hideLoading();
                     List<Chat> chatHistoryList = response.body();
                     if (chatHistoryList.size() > 0) {
-                        String firstMessage = chatHistoryList.get(0).getMessage();
-                        Log.i("Response", "First firstMessage is \"" + firstMessage + "\"");
+                        String message = chatHistoryList.get(0).getMessage();
+                        Log.i("Response", "First message is \"" + message + "\"");
                     }
                     else {
                         Log.i("Response", "Chat history is empty.");
